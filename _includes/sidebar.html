@@ -3,9 +3,13 @@
                  
      <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.jpg{% endif %}" alt="profile picture" />
-                <h1 class="name">{% if site.name %}{{site.name}}{% else %}Aaron Wu{% endif %}</h1>
-                <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
+                <img class="profile" src="{{site.baseurl}}/assets/images/profile.jpg" alt="profile picture" />
+                <h1 class="name"><span class="en">Aaron Wu</span><span class="zh">吴文锋</span></h1>
+                <h3 class="tagline"><span class="en">Full Stack Developer</span><span class="zh">全栈工程师</span></h3>
+                <p>
+                   >>> <a href="#" lan="zh" class="changeLan en">中文</a>
+                    <a href="#" lan="en" class="changeLan zh">Engilsh</a> <<<
+                </p>
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
@@ -30,12 +34,10 @@
                     {% if site.twitter %}
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
                     {% endif %}
-                    
                 </ul>
             </div><!--//contact-container-->
            {% include education.html %}
            {% include language.html %}
            {% include interests.html %}
-        
             
         </div><!--//sidebar-wrapper-->

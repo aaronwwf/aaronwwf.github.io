@@ -1,17 +1,10 @@
-title: My Resume
+title: Aaron Wu 
 url: 'http://aaronwwf.github.io'
 baseurl: '' #change it according to your repository name
 
 
 # Enable one of these styles by removing #
 #style: styles-2
-
-
-#Profile information
-name: Aaron Wu 
-tagline: Full Stack Developer
-pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
 
 #sidebar links
 email: aaronwwf@qq.com 

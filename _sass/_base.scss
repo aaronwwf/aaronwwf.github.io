@@ -273,3 +273,14 @@ p {
     }
     
 }
+
+
+// for multiple language
+.en, .zh{
+    display:none;
+}
+.changeLan{
+    border: 1px solid;
+    padding: 3px;
+    line-height: 40px;
+}
